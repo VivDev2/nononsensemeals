@@ -6,6 +6,7 @@ import BentoGrid from "./components/BentoGrid";
 import Zomato from "./components/Zomato";
 import HotelInteriorGrid from "./components/HotelInteriorGrid";
 import Middlesection from "./components/middlesection";
+import Testimonial from "./components/Testimonial";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Middlesection/>
         <Zomato/>
         <HotelInteriorGrid/>
+        <Testimonial/>
         <Footer/>
       </div>
     
