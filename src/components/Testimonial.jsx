@@ -31,13 +31,13 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <section className="bg-gradient-to-b from-orange-950 to-orange-900 text-white py-16">
+    <section className="bg-gradient-to-b from-orange-950 to-orange-800 text-white py-16">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold mb-6 text-orange-100">
           What Our Customers Say
         </h2>
         <div className="relative">
-          <div className="bg-orange-900/30 p-6 rounded-xl shadow-lg transition duration-700 ease-in-out">
+          <div className="bg-orange-500/30 p-6 rounded-xl shadow-lg transition duration-700 ease-in-out">
             <p className="text-lg text-orange-200 italic mb-4">
               "{testimonials[index].text}"
             </p>

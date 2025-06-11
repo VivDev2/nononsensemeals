@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-orange-900 to-orange-950 text-white mt-12">
+    <footer className="bg-gradient-to-b from-orange-900 to-orange-950 text-white ">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="flex items-center mb-6">
               <img
                 className="h-32 w-auto mr-4"
-                src="src/assets/logo.png"
+                src="src/assets/Nononsense.png"
                 alt="No Nonsense Meals Logo"
               />
               <div>

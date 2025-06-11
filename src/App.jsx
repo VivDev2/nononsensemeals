@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
@@ -10,17 +9,16 @@ import Testimonial from "./components/Testimonial";
 
 const App = () => {
   return (
-    <div className="bg-gray-50">
+    <div>
       <Navbar />
-        <HeroSection />
-        <BentoGrid/>
-        <Middlesection/>
-        <Zomato/>
-        <HotelInteriorGrid/>
-        <Testimonial/>
-        <Footer/>
-      </div>
-    
+      <HeroSection />
+      <BentoGrid />
+      <Middlesection />
+      <Zomato />
+      <HotelInteriorGrid />
+      <Testimonial/>
+      <Footer />
+    </div>
   );
 };
 
